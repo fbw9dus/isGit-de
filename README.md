@@ -16,9 +16,9 @@ In der Datei `is-git.js` wird eine Funktion exportiert. Schreib in dieser Funkti
 
 | Fall | Eingabe | Ausgabe |
 |------|-------|--------|
-| Input is not a directory | `'../hello'` | `Sorry, but I couldn't find a directory at /home/itamar/hello` |
-| Input is git repository | `'./blockly-vue'` | `/home/itamar/blockly-vue is a git repository` |
-| Input is not git repository | `'./blockly-vue/src'` | `/home/itamar/blockly-vue/src is **not** a git repository` |
+| Eingabe ist kein existierender Ordner | `'../hello'` | `Sorry, but I couldn't find a directory at /home/itamar/hello` |
+| Eingabe ist ein GIT-Repository | `'./blockly-vue'` | `/home/itamar/blockly-vue is a git repository` |
+| Eingabe ist keine GIT-Repository | `'./blockly-vue/src'` | `/home/itamar/blockly-vue/src is **not** a git repository` |
 
 ### 2. Mach daraus ein Terminal-Programm
 
